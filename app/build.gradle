@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.qorion.ronwallet'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.qorion.ronwallet'
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
+
+dependencies {
+}
